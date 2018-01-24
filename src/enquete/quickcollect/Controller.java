@@ -10,7 +10,7 @@ public class Controller extends Activity {
 	static final String KEY_IDQ = "idQ";
 	static final String KEY_REP = "rep";
 	 @Override
-	    public void onCreate(Bundle savedInstanceState) {
+	    public void onCreate(Bundle savedInstanceState) { 
 	        super.onCreate(savedInstanceState);
 	      //  setContentView(R.layout.activity_home);
 	        Intent in = getIntent();
@@ -20,7 +20,7 @@ public class Controller extends Activity {
 	       
 	       int ind = Integer.parseInt(name);
 	        if(ind == 0){
-	        	// renvoyer le i au niveau de l'activité NewFiche
+	        	// renvoyer le i au niveau de l'activitï¿½ NewFiche
 	        	Intent intent = new Intent(getApplicationContext(), NewFiche.class);
 	    		intent.putExtra(KEY_ID, 0);
 	    		startActivity(intent);
@@ -29,7 +29,7 @@ public class Controller extends Activity {
 	        else
 	        {
 	        	if(ind!=0){
-	        	   // on récupere id, idQ,rep enregistrer dans la base incrémenté i et renvoyer au NewFiche
+	        	   // on rï¿½cupere id, idQ,rep enregistrer dans la base incrï¿½mentï¿½ i et renvoyer au NewFiche
 	        		
 	        		
 	            }
